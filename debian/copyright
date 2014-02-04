@@ -1,0 +1,102 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kjobwidgets
+Source: https://projects.kde.org/projects/frameworks/kjobwidgets
+
+Files: *
+Copyright: © 2006-2008 Kevin Ottens <ervin@kde.org>
+           © 2006-2008 Rafael Fernández López <ereslibre@kde.org>
+           © 2000 Matej Koss <koss@miesto.sk>
+           © 2000, 2013 David Faure <faure@kde.org>
+           © 1997, 2000-2001 Stephan Kulow <coolo@kde.org>
+           © 2009 Shaun Reich <shaun.reich@kdemail.net>
+           © 2007 Bernhard Loos <nhuh.put@web.de>
+           © 1999-2002 Hans Petter Bieker <bieker@kde.org>
+           © 2009-2010 John Layt <john@layt.net>
+           © 2002 Lukas Tinkl <lukas@kde.org>
+           © 1999 Preston Brown <pbrown@kde.org>
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
+
+Files: src/kdialogjobuidelegate.cpp
+       src/kdialogjobuidelegate.h
+       src/kjobwidgets.cpp
+       src/kjobwidgets.h
+       src/kuiserverjobtracker_p.h
+Copyright: 2000 Stephan Kulow <coolo@kde.org>
+           2000, 2013 David Faure <faure@kde.org>
+           2006,2007 Kevin Ottens <ervin@kde.org>          
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: src/kjobwidgets.h
+       src/kjobwidgets.cpp
+Copyright: 2013 David Faure <faure@kde.org>
+License: LGPL-2+ as approved by KDE e.V.
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 2 of the License or ( at
+ your option ) version 3 or, at the discretion of KDE e.V. ( which shall
+ act as a proxy as in section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+  
+Files: debian/*       
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
