@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5JobWidgets.so.4 libkf5jobwidgets4 #MINVER#
+libKF5JobWidgets.so.5 libkf5jobwidgets5 #MINVER#
  _ZN11KJobWidgets13userTimestampEP4KJob@Base 4.96.0
  _ZN11KJobWidgets19updateUserTimestampEP4KJobm@Base 4.96.0
  _ZN11KJobWidgets6windowEP4KJob@Base 4.96.0
