@@ -6,7 +6,7 @@ XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  extra-cmake-modules (>= 0.0.11), qtbase5-dev,
  libkf5coreaddons-dev (>= 4.98.0), libkf5widgetsaddons-dev (>= 4.98.0),
- libqt5x11extras-dev
+ libqt5x11extras5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kjobwidgets
 
