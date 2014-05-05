@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.11), qtbase5-dev,
- libkf5coreaddons-dev (>= 4.98.0), libkf5widgetsaddons-dev (>= 4.98.0),
+ extra-cmake-modules (>= 0.0.13), qtbase5-dev,
+ libkf5coreaddons-dev (>= 4.99.0), libkf5widgetsaddons-dev (>= 4.99.0),
  libqt5x11extras5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kjobwidgets
