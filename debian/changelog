@@ -1,19 +1,16 @@
-kjobwidgets (4.99.0-0ubuntu2) UNRELEASED; urgency=medium
+kjobwidgets (4.99.0-0ubuntu1) trusty; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
   * Install *.pri files in arch dependent path.
   * Re-add -dev package and fix Multiarch fields after a faulty wrap-
     and-sort.
-
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 01 Jun 2014 21:53:55 +0200
-
-kjobwidgets (4.99.0-0ubuntu1) trusty; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
 
   [ Scarlett Clark ]
-  * Add missing depends 
-  * Add data package for locales 
+  * Add missing depends
+  * Add data package for locales
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:53 +0100
 
