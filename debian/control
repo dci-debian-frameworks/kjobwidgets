@@ -20,7 +20,10 @@ Homepage: https://projects.kde.org/projects/frameworks/kjobwidgets
 Package: libkf5jobwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5jobwidgets5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5jobwidgets5 (= ${binary:Version}), ${misc:Depends},
+ kf5coreaddons-dev,
+ kf5widgetsaddons-dev,
+ qtbase5-dev
 Description: Widgets for tracking KJob instances
  Window class that associates this job with a window given by
  window. This is used by KDialogJobUiDelegate as parent widget
