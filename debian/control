@@ -5,9 +5,9 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.13),
-               libkf5coreaddons-dev (>= 4.99.0),
-               libkf5widgetsaddons-dev (>= 4.99.0),
+               extra-cmake-modules (>= 0.0.14),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
                libqt5x11extras5-dev,
                pkg-kde-tools,
                qt5-default,
@@ -20,10 +20,11 @@ Homepage: https://projects.kde.org/projects/frameworks/kjobwidgets
 Package: libkf5jobwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5jobwidgets5 (= ${binary:Version}), ${misc:Depends},
- kf5coreaddons-dev,
- kf5widgetsaddons-dev,
- qtbase5-dev
+Depends: kf5coreaddons-dev,
+         kf5widgetsaddons-dev,
+         libkf5jobwidgets5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends}
 Description: Widgets for tracking KJob instances
  Window class that associates this job with a window given by
  window. This is used by KDialogJobUiDelegate as parent widget

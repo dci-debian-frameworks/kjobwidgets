@@ -30,7 +30,7 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: src/kdialogjobuidelegate.cpp
        src/kdialogjobuidelegate.h
@@ -39,7 +39,7 @@ Files: src/kdialogjobuidelegate.cpp
        src/kuiserverjobtracker_p.h
 Copyright: 2000 Stephan Kulow <coolo@kde.org>
            2000, 2013 David Faure <faure@kde.org>
-           2006,2007 Kevin Ottens <ervin@kde.org>          
+           2006,2007 Kevin Ottens <ervin@kde.org>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -81,9 +81,9 @@ License: LGPL-2+ as approved by KDE e.V.
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
-  
-Files: debian/*       
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+
+Files: debian/*
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
