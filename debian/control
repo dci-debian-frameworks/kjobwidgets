@@ -20,8 +20,8 @@ Homepage: https://projects.kde.org/projects/frameworks/kjobwidgets
 Package: libkf5jobwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: kf5coreaddons-dev,
-         kf5widgetsaddons-dev,
+Depends: libkf5coreaddons-dev,
+         libkf5widgetsaddons-dev,
          libkf5jobwidgets5 (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends}
