@@ -39,7 +39,6 @@ Description: Widgets for tracking KJob instances
  Contains development files for kjobwidgets.
 
 Package: libkf5jobwidgets5
-Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5jobwidgets5-data (= ${source:Version}),
