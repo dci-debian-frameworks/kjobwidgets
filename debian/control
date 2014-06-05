@@ -41,7 +41,7 @@ Description: Widgets for tracking KJob instances
 Package: libkf5jobwidgets5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5jobwidgets5-data (= ${source:Version}),
+Depends: libkf5jobwidgets-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Widgets for tracking KJob instances
@@ -55,10 +55,12 @@ Description: Widgets for tracking KJob instances
  Timestamp handling to update the last user action timestamp
  to the given time. Returns the last user action timestamp.
 
-Package: libkf5jobwidgets5-data
+Package: libkf5jobwidgets-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5jobwidgets5-data
+Replaces: libkf5jobwidgets5-data
 Description: Widgets for tracking KJob instances
  Window class that associates this job with a window given by
  window. This is used by KDialogJobUiDelegate as parent widget
