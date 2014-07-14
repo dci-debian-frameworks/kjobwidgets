@@ -10,7 +10,6 @@ Build-Depends: cmake,
                libkf5widgetsaddons-dev (>= 5.0.0),
                libqt5x11extras5-dev,
                pkg-kde-tools,
-               qt5-default,
                qtbase5-dev,
                qttools5-dev,
                qttools5-dev-tools
