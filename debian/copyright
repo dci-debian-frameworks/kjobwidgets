@@ -64,7 +64,7 @@ License: LGPL-2+
 Files: src/kjobwidgets.h
        src/kjobwidgets.cpp
 Copyright: 2013 David Faure <faure@kde.org>
-License: LGPL-2+ as approved by KDE e.V.
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License as published by
  the Free Software Foundation; either version 2 of the License or ( at
