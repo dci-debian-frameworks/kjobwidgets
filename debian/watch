@@ -1,3 +1,3 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/kjobwidgets-(.*)\.tar\.xz
-http://download.kde.org/stable/frameworks/([\d\.]*)/kjobwidgets-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/(?:[\d.]+)/kjobwidgets-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/frameworks/(?:[\d.]+)/kjobwidgets-([\d.]+)\.tar\.xz
