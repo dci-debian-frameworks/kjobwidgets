@@ -1,4 +1,4 @@
-kjobwidgets (5.6.0-1~) UNRELEASED; urgency=medium
+kjobwidgets (5.6.0-1) experimental; urgency=medium
 
   * New upstream release (5.6.0).
   * Bump build dependencies to build against the experimental versions.
@@ -9,7 +9,7 @@ kjobwidgets (5.6.0-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Add basic autopkgtests support.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 11:14:57 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 11:48:48 +0100
 
 kjobwidgets (5.2.0-0ubuntu1) utopic; urgency=medium
 
