@@ -24,8 +24,8 @@ Package: libkf5jobwidgets-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5coreaddons-dev (>= 5.7.0),
-         libkf5widgetsaddons-dev (>= 5.7.0),
          libkf5jobwidgets5 (= ${binary:Version}),
+         libkf5widgetsaddons-dev (>= 5.7.0),
          qtbase5-dev (>= 5.2.0),
          ${misc:Depends}
 Description: Widgets for tracking KJob instances
