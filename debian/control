@@ -8,12 +8,12 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 5.10.0~),
                libkf5coreaddons-dev (>= 5.10.0~),
                libkf5widgetsaddons-dev (>= 5.10.0~),
-               libqt5x11extras5-dev (>= 5.2.0),
+               libqt5x11extras5-dev (>= 5.4),
                libx11-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0),
-               qttools5-dev,
-               qttools5-dev-tools
+               qtbase5-dev (>= 5.4),
+               qttools5-dev (>= 5.4),
+               qttools5-dev-tools (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kjobwidgets
@@ -26,7 +26,7 @@ Architecture: any
 Depends: libkf5coreaddons-dev (>= 5.10.0~),
          libkf5jobwidgets5 (= ${binary:Version}),
          libkf5widgetsaddons-dev (>= 5.10.0~),
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: Widgets for tracking KJob instances
  Window class that associates this job with a window given by
