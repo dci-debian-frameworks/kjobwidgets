@@ -1,6 +1,6 @@
-kjobwidgets (5.20.0-1~1.gbp522748) UNRELEASED; urgency=medium
+kjobwidgets (5.20.0-1~2.gbpf01fc6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5227487ca9a1140a255baffc1874f9e855012897 **
+  ** SNAPSHOT build @f01fc621f95fb9f9f88b0166eb3292e82cb14c3a **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ kjobwidgets (5.20.0-1~1.gbp522748) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 29 Mar 2016 19:28:35 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:18:16 +0200
 
 kjobwidgets (5.19.0-1) experimental; urgency=medium
 
