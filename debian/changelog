@@ -1,6 +1,6 @@
-kjobwidgets (5.20.0-1~3.gbp5648d0) UNRELEASED; urgency=medium
+kjobwidgets (5.20.0-1~4.gbp31a185) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5648d0489e9499f1555d0e7757a3744eacb6d194 **
+  ** SNAPSHOT build @31a18594d6ad75c2506e82750593b1d71d9115bd **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,9 @@ kjobwidgets (5.20.0-1~3.gbp5648d0) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * UNRELEASED
   * UNRELEASED
+  * Update acc test script
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 12:03:39 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:18:13 +0200
 
 kjobwidgets (5.19.0-1) experimental; urgency=medium
 
