@@ -1,30 +1,17 @@
-kjobwidgets (5.21.0-1~2.gbp1c74f6) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @1c74f6e69bb29dea39e001a80a69ce5ac373ddd6 **
+kjobwidgets (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
 
-  [ Maximiliano Curia ]
-  * UNRELEASED
-  * UNRELEASED
-  * Update acc test script
-  * UNRELEASED
-  * uscan no longer supports more than one main upstream tarball being listed
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-
-  [ Maximiliano Curia ]
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 06 May 2016 20:35:39 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 07 May 2016 10:55:46 +0200
 
 kjobwidgets (5.19.0-1) experimental; urgency=medium
 
