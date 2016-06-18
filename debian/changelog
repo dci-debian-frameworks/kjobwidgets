@@ -1,10 +1,9 @@
-kjobwidgets (5.23.0-1~1.gbpa1ec8f) UNRELEASED; urgency=medium
+kjobwidgets (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @a1ec8fb928f6a8fce13e6a3c70685e6eb3d4f985 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 23:18:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 18:55:37 +0200
 
 kjobwidgets (5.22.0-1) unstable; urgency=medium
 
