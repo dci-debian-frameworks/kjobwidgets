@@ -5,13 +5,13 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.24.0~),
-               libkf5coreaddons-dev (>= 5.24.0~),
-               libkf5widgetsaddons-dev (>= 5.24.0~),
-               libqt5x11extras5-dev (>= 5.4.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               libkf5coreaddons-dev (>= 5.25.0~),
+               libkf5widgetsaddons-dev (>= 5.25.0~),
+               libqt5x11extras5-dev (>= 5.5.0~),
                libx11-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4.0~),
+               qtbase5-dev (>= 5.5.0~),
                qttools5-dev (>= 5.4),
                qttools5-dev-tools (>= 5.4)
 Standards-Version: 3.9.8
@@ -22,10 +22,10 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kjobwidgets.git
 Package: libkf5jobwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons-dev (>= 5.24.0~),
+Depends: libkf5coreaddons-dev (>= 5.25.0~),
          libkf5jobwidgets5 (= ${binary:Version}),
-         libkf5widgetsaddons-dev (>= 5.24.0~),
-         qtbase5-dev (>= 5.4.0~),
+         libkf5widgetsaddons-dev (>= 5.25.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: Widgets for tracking KJob instances
  Window class that associates this job with a window given by
