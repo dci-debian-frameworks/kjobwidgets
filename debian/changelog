@@ -1,10 +1,11 @@
-kjobwidgets (5.24.0-1~1.gbp26b2d9) UNRELEASED; urgency=medium
+kjobwidgets (5.25.0-1~1.gbp7fa524) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @26b2d9ef18de1ff5401981dcd205dfd765f96d1b **
+  ** SNAPSHOT build @7fa524565418a0ed623210cdc7515dec8fc360de **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 17:18:21 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 23:18:11 +0200
 
 kjobwidgets (5.23.0-1) unstable; urgency=medium
 
