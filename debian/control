@@ -39,6 +39,7 @@ Description: Widgets for tracking KJob instances
  to the given time. Returns the last user action timestamp.
  .
  Contains development files for kjobwidgets.
+Breaks: kio-dev (<< 5.25), libkf5kio-dev (<< 5.25)
 
 Package: libkf5jobwidgets5
 Architecture: any
@@ -56,6 +57,14 @@ Description: Widgets for tracking KJob instances
  .
  Timestamp handling to update the last user action timestamp
  to the given time. Returns the last user action timestamp.
+Breaks: frameworkintegration (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25),
+        libkf5khtml5 (<< 5.25),
+        libkf5kiofilewidgets5 (<< 5.25),
+        libkf5kiowidgets5 (<< 5.25),
+        libkf5parts5 (<< 5.25),
+        libkf5texteditor5 (<< 5.25),
+        libkf5webkit5 (<< 5.25)
 
 Package: libkf5jobwidgets-data
 Architecture: all
