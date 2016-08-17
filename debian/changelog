@@ -1,11 +1,17 @@
-kjobwidgets (5.25.0-1~1.gbp7fa524) UNRELEASED; urgency=medium
+kjobwidgets (5.25.0-1~2.gbp031549) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @0315493a57078b79123ce7fe1205cda306d746b0 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @7fa524565418a0ed623210cdc7515dec8fc360de **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 23:18:11 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:18:19 +0200
 
 kjobwidgets (5.23.0-1) unstable; urgency=medium
 
