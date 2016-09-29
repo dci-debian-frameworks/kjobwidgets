@@ -1,10 +1,12 @@
-kjobwidgets (5.26.0-1~1.gbp3291cd) UNRELEASED; urgency=medium
+kjobwidgets (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @3291cdf585940293112ba8b26227814e777bb7e1 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 17:18:44 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:59:12 +0200
 
 kjobwidgets (5.25.0-1) unstable; urgency=medium
 
