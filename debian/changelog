@@ -1,3 +1,13 @@
+kjobwidgets (5.28.0-2~) UNRELEASED; urgency=medium
+
+  * Add new upstream patch: Don-t-focus-progress-windows.patch
+    to improve the use of remote files
+  * Add new upstream patch:
+    don-t-replace-existing-icon-if-QIcon-fromTheme-fails.patch
+    to keep the window icon if the themed one fails
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Apr 2017 11:07:51 +0200
+
 kjobwidgets (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
