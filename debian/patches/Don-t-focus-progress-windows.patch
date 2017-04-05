@@ -1,0 +1,28 @@
+From: "Martin T. H. Sandsmark" <martin.sandsmark@kde.org>
+Date: Mon, 26 Dec 2016 15:58:47 +0100
+Subject: Don't focus progress windows
+
+Show the job tracking widget without stealing focus, e. g. from Kate
+when saving to FTP. This is especially important since there's a 0.5s
+delay before the window is shown so people often start interacting with
+the original window when the job progress is shown.
+
+BUG: 333934
+REVIEW: 129706
+---
+ src/kwidgetjobtracker.cpp | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/kwidgetjobtracker.cpp b/src/kwidgetjobtracker.cpp
+index 585867a..dbea4a4 100644
+--- a/src/kwidgetjobtracker.cpp
++++ b/src/kwidgetjobtracker.cpp
+@@ -53,6 +53,8 @@ void KWidgetJobTracker::Private::_k_showProgressWidget()
+     QWidget *widget = q->widget(job);
+ 
+     if (widget) {
++        // Don't steal the focus from the current widget (e. g. Kate)
++        widget->setAttribute(Qt::WA_ShowWithoutActivating);
+         widget->show();
+     }
+ }
