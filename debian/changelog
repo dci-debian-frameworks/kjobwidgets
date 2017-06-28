@@ -40,6 +40,16 @@ kjobwidgets (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:08:12 +0000
 
+kjobwidgets (5.28.0-2) unstable; urgency=medium
+
+  * Add new upstream patch: Don-t-focus-progress-windows.patch
+    to improve the use of remote files
+  * Add new upstream patch:
+    don-t-replace-existing-icon-if-QIcon-fromTheme-fails.patch
+    to keep the window icon if the themed one fails
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Apr 2017 11:27:15 +0200
+
 kjobwidgets (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]

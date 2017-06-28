@@ -1,0 +1,2 @@
+Don-t-focus-progress-windows.patch
+don-t-replace-existing-icon-if-QIcon-fromTheme-fails.patch

@@ -1,0 +1,21 @@
+From: "R.J.V. Bertin" <rjvbertin@gmail.com>
+Date: Thu, 16 Mar 2017 17:34:40 +0100
+Subject: don't replace existing icon if QIcon::fromTheme() fails
+
+---
+ src/kwidgetjobtracker.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/kwidgetjobtracker.cpp b/src/kwidgetjobtracker.cpp
+index dbea4a4..93338ec 100644
+--- a/src/kwidgetjobtracker.cpp
++++ b/src/kwidgetjobtracker.cpp
+@@ -467,7 +467,7 @@ void KWidgetJobTracker::Private::ProgressWidget::closeEvent(QCloseEvent *event)
+ 
+ void KWidgetJobTracker::Private::ProgressWidget::init()
+ {
+-    setWindowIcon(QIcon::fromTheme(QStringLiteral("document-save")));
++    setWindowIcon(QIcon::fromTheme(QStringLiteral("document-save"), windowIcon()));
+ 
+     QVBoxLayout *topLayout = new QVBoxLayout(this);
+ 
