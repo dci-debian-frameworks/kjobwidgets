@@ -80,6 +80,7 @@ Description: Widgets for tracking KJob instances (documentation)
  to the given time. Returns the last user action timestamp.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5jobwidgets5
 Architecture: any
