@@ -1,9 +1,11 @@
-# SymbolsHelper-Confirmed: 5.41.0 amd64
+# SymbolsHelper-Confirmed: 5.42.0 amd64
 libKF5JobWidgets.so.5 libkf5jobwidgets5 #MINVER#
  _ZN11KJobWidgets13userTimestampEP4KJob@Base 4.96.0
  _ZN11KJobWidgets19updateUserTimestampEP4KJobm@Base 4.96.0
  _ZN11KJobWidgets6windowEP4KJob@Base 4.96.0
  _ZN11KJobWidgets9setWindowEP4KJobP7QWidget@Base 4.96.0
+ _ZN11KJobWindows6windowEP4KJob@Base 5.42.0
+ _ZN11KJobWindows9setWindowEP4KJobP7QWindow@Base 5.42.0
  _ZN17KWidgetJobTracker11descriptionEP4KJobRK7QStringRK5QPairIS2_S2_ES8_@Base 4.96.0
  _ZN17KWidgetJobTracker11infoMessageEP4KJobRK7QStringS4_@Base 4.96.0
  _ZN17KWidgetJobTracker11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
