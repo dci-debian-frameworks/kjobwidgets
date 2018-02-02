@@ -62,7 +62,7 @@ Description: Widgets for tracking KJob instances
  to the given time. Returns the last user action timestamp.
  .
  Contains development files for kjobwidgets.
-Breaks: kio-dev (<< 5.28), libkf5kio-dev (<< 5.41)
+Breaks: kio-dev (<< 5.28), libkf5kio-dev (<< 5.42)
 
 Package: libkf5jobwidgets-doc
 Architecture: all
@@ -98,11 +98,29 @@ Description: Widgets for tracking KJob instances
  .
  Timestamp handling to update the last user action timestamp
  to the given time. Returns the last user action timestamp.
-Breaks: frameworkintegration (<< 5.28),
-        libkf5kdelibs4support5 (<< 5.41),
-        libkf5khtml5 (<< 5.41),
-        libkf5kiofilewidgets5 (<< 5.41),
-        libkf5kiowidgets5 (<< 5.41),
-        libkf5parts5 (<< 5.41),
-        libkf5texteditor5 (<< 5.41),
-        libkf5webkit5 (<< 5.41),
+Breaks: baloo-kf5 (<< 5.42),
+        frameworkintegration (<< 5.28),
+        kdesignerplugin (<< 5.42),
+        kinit (<< 5.42),
+        kio (<< 5.42),
+        kross (<< 5.42),
+        ktexteditor-katepart (<< 5.42),
+        libkf5declarative5 (<< 5.42),
+        libkf5kdelibs4support5 (<< 5.42),
+        libkf5kdelibs4support5-bin (<< 5.42),
+        libkf5khtml-bin (<< 5.42),
+        libkf5khtml5 (<< 5.42),
+        libkf5kiofilewidgets5 (<< 5.42),
+        libkf5kiowidgets5 (<< 5.42),
+        libkf5krossui5 (<< 5.42),
+        libkf5mediaplayer5 (<< 5.42),
+        libkf5newstuff5 (<< 5.42),
+        libkf5notifyconfig5 (<< 5.42),
+        libkf5parts-plugins (<< 5.42),
+        libkf5parts5 (<< 5.42),
+        libkf5plasma5 (<< 5.42),
+        libkf5plasmaquick5 (<< 5.42),
+        libkf5texteditor5 (<< 5.42),
+        libkf5webkit5 (<< 5.42),
+        plasma-framework (<< 5.42),
+        qml-module-org-kde-kio (<< 5.42),
